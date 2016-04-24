@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">PulseTracker</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="label_pulse">Heart rate</string>
+    <string name="value_pulse">no heart rate measured</string>
+
+    <string name="value_lastReceivedEvent">no event received</string>
+
+    <string name="unknown_characteristic">Unknown characteristic</string>
+    <string name="unknown_service">Unknown service</string>
+
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_graph">Visualization</string>
+
+    <string name="ble_not_supported">BLE is not supported</string>
+    <string name="label_data">Data:</string>
+    <string name="label_device_address">Device address:</string>
+    <string name="label_state">State:</string>
+    <string name="no_data">No data</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="title_devices">BLE Device Scan</string>
+    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+
+    <string name="unknown_device">Unknown device</string>
+
+    <!-- Settings Activity -->
+    <string name="set_high_pulse">High heart rate: \t</string>
+    <string name="set_low_pulse">Low heart rate: \t</string>
+    <string name="set_waiting_time">Latency (Disconn.): \t</string>
+    <string name="set_increase_decrease_percentage">Heartrate variation %: \t</string>
+    <string name="set_waiting_time_pulse">Time (variation): \t</string>
+
+    <!-- Menu items -->
+    <string name="menu_settings">Settings</string>
+    <string name="menu_showevent">Show Event</string>
+    <string name="menu_graph">Visualization</string>
+
+    <string name="connect">connect</string>
+    <string name="disconnect">disconnect</string>
+
+    <string name="menu_stop">stop</string>
+    <string name="menu_scan">scan</string>
+
+    <!-- Default values -->
+    <string name="key_high_pulse">high_pulse</string>
+    <string name="key_low_pulse">low_pulse</string>
+    <string name="key_waiting_time">waiting_time</string>
+    <string name="key_waiting_time_variation">waiting_time_variation</string>
+    <string name="key_variation_percentage">variation_percentage</string>
+
+    <string name="key_preferences_file">sharedpreferences</string>
+
+</resources>
